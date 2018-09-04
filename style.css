@@ -1,0 +1,136 @@
+.header-text {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    font-family: "montserrat";
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.light-text {
+    font-weight: 100;
+}
+
+.bold-text {
+    font-weight: bolder;
+}
+
+.paragraph-text {
+    font-family: "Open Sans";
+    line-height: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+body {
+    background-image: url("assets/bckgrnd.png");
+    margin: 0px;
+}
+
+.icons-positioning {
+    background-image: url("bckgrnd.ong");
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-border {
+    border: 3px solid #2c5fa8;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lower-background-color {
+    opacity: 0.6;
+    background-color: #969696;
+    margin-bottom: auto;
+    padding-left: 20px;
+    
+}
+
+.see-my-work {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    border-bottom: 3px solid white;
+    width: 110%;
+    margin-left: -50px;
+    display: inline-block;
+}
+
+.see-my-work-text {
+    font-size: 30px;
+}
+
+.portfolio-images-group {
+    /* ask how to make only top border visiable */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+   
+    width: auto;
+    height: auto;
+}
+
+.portfolio-images-individual {
+    margin: 10px;
+    height: 200px;
+    width: 250px;
+}
+
+.top-border {
+    border-top: 3px solid white;
+    padding-top: 10px;
+    width: 110%;
+    margin-left: -50px
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+    .header-text {
+        display: flex;
+        justify-content: flex-start;
+        margin: 15px;
+        padding-left: 50px;
+        padding-right: 750px;
+    }
+    .icons-positioning {
+        display: flex;
+        justify-content: flex-start;
+        align-content: space-between;
+    }
+
+    .portfolio-images-group{
+        justify-content: space-around;
+        align-content: center;
+        flex-direction: row;
+    }
+
+    .see-my-work{
+        justify-content: flex-start;
+        padding: 15px;
+        margin: 0%;
+        font-weight: 100;   
+    }
+
+    .top-border{
+        margin-right: 10px;
+        width: 110%;
+        margin-left: -1px
+    }
+
+    .profile-positioning{
+        position: absolute;
+        top: 200px;
+        right: 100px;
+    }
+}

@@ -1,1 +1,2 @@
-# work-portfolio-
+# responsive-portfolio
+Second homework. 
